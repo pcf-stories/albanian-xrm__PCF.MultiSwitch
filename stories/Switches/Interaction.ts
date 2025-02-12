@@ -5,7 +5,7 @@
 
 import type { StoryObj } from '@storybook/html';
 import type { StoryArgs } from '../StoryArgs';
-import { userEvent, waitFor, within } from '@storybook/testing-library';
+import { userEvent, waitFor, within } from '@storybook/test';
 import delay, { timeout } from '../delay';
 import {
   FIRST_OPTION,
